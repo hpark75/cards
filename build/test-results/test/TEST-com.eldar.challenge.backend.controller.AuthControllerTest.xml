@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.eldar.challenge.backend.controller.AuthControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-26T12:59:24" hostname="FP---Mac-Studio.local" time="0.077">
+  <properties/>
+  <testcase name="rootWhenUnAuthenticatedThen401()" classname="com.eldar.challenge.backend.controller.AuthControllerTest" time="0.02"/>
+  <testcase name="createUser()" classname="com.eldar.challenge.backend.controller.AuthControllerTest" time="0.056"/>
+  <system-out><![CDATA[2024-11-26T09:59:23.838-03:00  INFO 24488 --- [backend] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eldar.challenge.backend.controller.AuthControllerTest]: AuthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-26T09:59:23.847-03:00  INFO 24488 --- [backend] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eldar.challenge.backend.BackendApplication for test class com.eldar.challenge.backend.controller.AuthControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2024-11-26T09:59:23.857-03:00  INFO 24488 --- [backend] [    Test worker] c.e.c.b.controller.AuthControllerTest    : Starting AuthControllerTest using Java 21.0.5 with PID 24488 (started by hee in /Users/hee/Documents/Java/eldar/cards)
+2024-11-26T09:59:23.857-03:00  INFO 24488 --- [backend] [    Test worker] c.e.c.b.controller.AuthControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-11-26T09:59:24.065-03:00  INFO 24488 --- [backend] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name user
+2024-11-26T09:59:24.387-03:00  INFO 24488 --- [backend] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-26T09:59:24.387-03:00  INFO 24488 --- [backend] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-26T09:59:24.388-03:00  INFO 24488 --- [backend] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-11-26T09:59:24.403-03:00  INFO 24488 --- [backend] [    Test worker] c.e.c.b.controller.AuthControllerTest    : Started AuthControllerTest in 0.554 seconds (process running for 3.036)
+2024-11-26T09:59:24.473-03:00  INFO 24488 --- [backend] [    Test worker] c.e.c.backend.controller.AuthController  : Token requested for user: 'null'
+2024-11-26T09:59:24.475-03:00  INFO 24488 --- [backend] [    Test worker] c.e.c.backend.controller.AuthController  : Token granted null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
